@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 const API = axios.create({
-  baseURL: process.env.REACT_APP_API_URL || 'https://sie-aim-surface-graduates.trycloudflare.com/api'
+  baseURL: process.env.REACT_APP_API_URL || 'https://varies-asus-pas-may.trycloudflare.com/api'
 });
 
 API.interceptors.request.use((config) => {
